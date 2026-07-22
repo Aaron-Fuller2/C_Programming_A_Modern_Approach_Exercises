@@ -4,10 +4,7 @@ int main (void) {
     char ch;
 
     printf("Enter a phone number: ");
-    
-    while (ch != '\n') {
-        ch = getchar();
-        
+    while ((ch = getchar()) != '\n') {
         if (ch == 'A' || ch == 'B' || ch == 'C') {
             printf("2");
         } else if (ch == 'D' || ch == 'E' || ch == 'F') {
@@ -28,4 +25,5 @@ int main (void) {
             printf("%c", ch);
         }
     }
+    printf("%c", '\n');
 }
