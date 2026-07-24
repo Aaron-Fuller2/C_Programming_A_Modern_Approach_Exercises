@@ -6,7 +6,7 @@ int main (void) {
     ap, converted_ap;
 
     printf("Enter a 24-hour time: ");
-    scanf("%2d:%2d %2s", &hour, &minute, &ap);
+    scanf("%2d:%2d %2d", &hour, &minute, &ap);
 
     converted_ap = toupper(ap);
 
