@@ -24,7 +24,7 @@ int main(void) {
         }
     }
 
-    float average = characters / words;
+    float average = (float)characters / (float)words;
 
     printf("characters: %d\n", characters);
     printf("words: %d\n", words);
